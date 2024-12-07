@@ -31,6 +31,10 @@ example 2 {inline-axis} elements are one under another:
 see if you want the elements in one line then you can just use {inlie} or {inline-block} both are fine
 
 inline	Displays an element as an inline element (like <span>). Any height and width properties will have no effect. This is default.
+
 block	Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width
+
 flex	Displays an element as a block-level flex container
-inline-block	Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values
+
+inline-block	Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can 
+apply height and width values
