@@ -1,0 +1,9 @@
+.t1{
+    border-top: 60px solid #4A7D7B;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    height: 0;
+    width: 130px;
+    margin-top:-69;
+    margin-left:100
+  }
