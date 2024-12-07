@@ -28,3 +28,9 @@ example 2 {inline-axis} elements are one under another:
     margin-left: 296;
   }.q-2{margin-top:-6px;}.q-3{margin-top:-6px;}.q-4{margin-top:-6px;}.q-5{margin-top:-6px;}.q-6{margin-top:-6px;}.q-7{margin-top:-6px;}.q-1{margin-top:-6px;}
 
+see if you want the elements in one line then you can just use {inlie} or {inline-block} both are fine
+
+inline	Displays an element as an inline element (like <span>). Any height and width properties will have no effect. This is default.
+block	Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width
+flex	Displays an element as a block-level flex container
+inline-block	Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values
