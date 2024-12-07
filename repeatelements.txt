@@ -1,0 +1,30 @@
+to repeate elements we use display function
+
+example 1 {inline-block} elements are one after another:
+<p class="stars"></p><p class="stars stars-2"></p><p class="stars stars-3"></p><p class="stars stars-4"></p><p class="stars stars-5"></p><p class="stars stars-6"></p>
+
+  .stars {
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    background-color:#787885;
+    margin-top:20;
+    margin-left: 30;
+ }.stars-2 {margin-left:20px;
+}.stars-3 {margin-left:20px;
+}.stars-4 {margin-left:20px;
+}.stars-5 {margin-left:20px;
+}.stars-6{margin-left:20px;}
+
+example 2 {inline-axis} elements are one under another:
+<p class="shortlines2"></p><p class="shortlines2 q-2"></p><p class="shortlines2 q-3"></p><p class="shortlines2 q-4"></p><p class="shortlines2 q-5"></p><p class="shortlines2 q-6"></p><p class="shortlines2 q-7"></p><p class="shortlines2 q-1"></p>
+
+.shortlines2{
+    display: inline-axis;
+    width: 74px;
+    height: 10px;
+    background-color:#787885;
+    margin-top:-166;
+    margin-left: 296;
+  }.q-2{margin-top:-6px;}.q-3{margin-top:-6px;}.q-4{margin-top:-6px;}.q-5{margin-top:-6px;}.q-6{margin-top:-6px;}.q-7{margin-top:-6px;}.q-1{margin-top:-6px;}
+
