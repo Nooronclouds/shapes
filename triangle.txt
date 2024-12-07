@@ -1,0 +1,16 @@
+left bottom eq triangle:
+border-top: 70px solid transparent;
+border-left:100px solid #4A7D7B;
+border-bottom: 70px solid transparent;
+height:0;
+width: 130px;
+margin-top:-216;
+margin-left:200;
+
+right angle tringle:
+border-top: 100px solid transparent;
+border-left:100px solid #4A7D7B;
+height: 0;
+width: 130px;
+margin-top:-216;
+margin-left:200;
