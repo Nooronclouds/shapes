@@ -22,6 +22,49 @@
   height:16px; width: 32px;
   background-color: #000039;
 }.grid-item4 {
+
+another example:
+
+<div class="grid-container"><div class="grid-item1"></div><div class="grid-item2"></div><div class="grid-item3"></div><div class="grid-item4"></div><div class="grid-item5"></div><div class="grid-item1a"></div><div class="grid-item2a"></div><div class="grid-item3a"></div><div class="grid-item4a"></div><style>
+  body{background-color:#6592CF;position:absolute;margin:0;}
+  .grid-container {
+    height:180;
+    width:280;
+    display: grid; 
+    margin-top: 60;
+    margin-left: 60;
+    column-gap: 35px; row-gap:45px;
+    grid-template-columns: auto auto auto;
+    background-color: #6592CF;
+}.grid-item1 {
+  height:30px; width: 70px;
+  background-color: #EEB850;
+}.grid-item2 {
+  height:30px; width: 70px;
+  background-color: #243D83;
+}.grid-item3 {
+  height:30px; width: 70px;
+  background-color: #EEB850;
+}.grid-item4 {
+  height:30px; width: 70px;
+  background-color: #243D83;
+}.grid-item5 {
+  height:30px; width: 70px;
+  background-color: #EEB850;
+}.grid-item1a {
+  height:30px; width: 70px;
+  background-color: #243D83;
+}.grid-item2a {
+  height:30px; width: 70px;
+  background-color: #EEB850;
+}.grid-item3a{
+  height:30px; width: 70px;
+  background-color: #243D83;
+}.grid-item4a{
+  height:30px; width: 70px;
+  background-color: #EEB850;
+}
+  </style>
   height:16px; width: 24px;
   background-color: #000039;
 }.grid-item5 {
