@@ -37,3 +37,5 @@ quater circle:
     border: 10px solid gray;
     border-bottom;
 }
+border circle:
+.r{height:90;width:230;border:10px solid #FBFAE2; border-radius: 100%; margin-top: -205;margin-left: 75}
